@@ -1,13 +1,9 @@
 body {
-  background-color: #f2f2f2;
+  background-image: url('tresleches.jpg');
+  background-size: cover;
   color: #333333;
   font-family: Arial, sans-serif;
   margin: 0;
-  text-transform: capitalize;
-}
-
-header {
-  text-align: center;
   padding: 20px;
 }
 
@@ -21,22 +17,23 @@ ul, ol {
   padding-left: 20px;
 }
 
-li {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-img {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
+a {
+  color: #333333;
+  text-decoration: none;
 }
 
 section {
-  padding: 20px;
+  margin-bottom: 20px;
 }
-Please note that you need to provide the actual image files (flour.jpg, baking-powder.jpg, etc.) and update the image source paths accordingly.
+
+section h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
 
 
 
