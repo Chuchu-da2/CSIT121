@@ -1,0 +1,37 @@
+body {
+  background-image: url('background.jpg');
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+header, nav, section {
+  margin: 20px;
+}
+
+h1 {
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
