@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Chinedu Chukwu</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Introduction</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">John Doe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#introduction" onclick="toggleMenu()">Introduction</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Me.png" alt="Chinedu Chukwu profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Chinedu Chukwu</h1>
+        <p class="section__text__p2">Full Time Student and Worker</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Chinedu.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Me.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Work Experience</h3>
+              <p>4+ years <br />Custom Pc Builder</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>High School Diploma<br />Pursuing B.Sc. Bachelors Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>                                                                                                                                      02/2018-Present
+                •	Built custom Desktops for clients, including high-end gaming systems and workstation builds.
+                •	Skilled in assembling and troubleshooting PC components, including motherboards, CPUs, RAM, and graphics cards. 
+                •	Proficient in diagnosing and resolving hardware and software issues, as well as installing operating systems and applications. 
+                •	Experienced in optimizing operating systems and software applications to ensure optimal performance. 
+                •	Able to create custom parts lists to meet customer requirements and budget
+                •	Installed and setup Oracle VirtualBox 
+                •	Operating System: Windows, Redhat/ CentOS, Ubuntu Linux. 
+                •	Created and modified Active Directory template user accounts to hold various properties.
+                •	Configured Ubuntu Server domain settings, server name, TCP/IP settings, and remote desktop.
+                •	Setting up Active directory, Dns, Dhcp on Server 2023
+                •	Creating and setting up user accounts and mailboxes.
+                •	Unlocking, resetting and disabling accounts on active directory.
+                •	Experience in  Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Microsoft Outlook. 
+                •	Troubleshooting zoom, skype, zoom video app on a virtual desktop.
+                •	Creating distribution groups and share mailboxes on Exchange 365
+                •	Installing and Troubleshooting Operating systems such as Windows 10, 11, and Linux
+                •	Creating security groups on active directory to provide share drive access for NTFS.
+                •	Create files and directories at user and root level. 
+                •	Managing, installing, and upgrading software packages using YUM and RPM and creating YUM repository files for offline servers 
+                •	Install and configure SSH key-based authentication. 
+                •	Custom Pc Building
+                •	Hardware Troubleshooting
+                •	Component Selection 
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+    />
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
